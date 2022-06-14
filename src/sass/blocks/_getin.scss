@@ -1,0 +1,67 @@
+.getin {
+    padding: 80px 33px;
+    &__wrp {
+        padding-top: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        width: 328px;
+        height: 333px;
+        background: #FFFFFF;
+        padding: 50px 40px;
+        gap: 15px;
+        &-blue {
+            display: flex;
+            flex-direction: column;
+            width: 329px;
+            height: 393px;
+            padding: 80px 40px;
+            gap: 15px;
+            background: #252B42;
+        }
+    }
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+    &__mail {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: #252B42;
+        &-white {
+            color: #FFFFFF;
+        }
+    }
+}
+.purple {
+    margin-top: 80px;
+    position: absolute;
+    width: 100%;
+    height: 114px;
+    left: 0px;
+    background: url('../../img/purl_bg.jpg') no-repeat 50%/cover;
+    &__wrp {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 40px 0px;
+        position: absolute;
+        width: 1050px;
+        height: 142px;
+        left: calc(50% - 1050px/2);
+        top: 0px;
+    }
+    &__descr {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}

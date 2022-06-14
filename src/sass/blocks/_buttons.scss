@@ -1,0 +1,112 @@
+
+.btn1 {
+    width: 187px;
+    height: 48px;
+    background: $second-color;
+    border-radius: 37px;
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    transition: 0.5s all;
+    &:hover {
+        box-shadow: 6px 3px 20px $main-color;
+        border: none;
+    }
+    a {
+        color: #FFFFFF;
+    }
+}
+.btn2 {
+    margin-left: 10px;
+    width: 157px;
+    height: 48px;
+    border: 1px solid #0D5C63;
+    border-radius: 37px;
+    background:none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    transition: 0.5s all;
+    &:hover {
+        box-shadow: 6px 3px 20px $main-color;
+        border: none;
+    }
+    a {
+        color: $main-color;
+    }
+}
+
+.btn3 {
+    position: absolute;
+    right: 40px;
+    background: $second-color;
+    border: 1px solid #E6E6E6;
+    border-radius: 0px 5px 5px 0px;
+    width: 117px;
+    height: 58px;
+    color: #FFFFFF;
+    transition: 0.5s all;
+    &:hover {
+        box-shadow: 6px 3px 20px $main-color;
+        border: none;
+    }
+}
+
+.btn4 {
+    padding: 10px 20px;
+    width: 160px;
+    height: 44px;
+    border: 1px solid $second-color;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: $second-color;
+    background:none;
+    margin: 0 auto;
+    &:hover {
+        box-shadow: 6px 3px 20px $main-color;
+        border: none;
+    }
+    a {
+        color: $main-color;
+    }
+    &-white {
+        border: 1px solid #ffffff;
+        &:hover {
+            box-shadow: 3px 3px 15px $second-color;
+            border: none;
+        }
+        a {
+            color: #ffffff;
+        }
+    }
+}   
+.btn5 {
+    position: absolute;
+    right: 40px;
+    background: $second-color;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    width: 160px;
+    height: 58px;
+    color: #FFFFFF;
+    transition: 0.5s all;
+    border: none;
+    &:hover {
+        box-shadow: 6px 3px 20px $main-color;
+        border: none;
+        transition: scale;
+    }
+}
+.heartbeat {
+    animation-name: heartbeat;
+    animation-duration: 1.2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    &:hover {
+        animation-play-state: paused;
+    }
+}

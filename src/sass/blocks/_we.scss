@@ -1,0 +1,31 @@
+.we {
+    padding-bottom: 136px;
+    &__wrp {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+        gap: 120px;
+    }
+    &__video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    &__descr {
+        width: 333px;
+        min-height: 438px; 
+        display: flex;
+        flex-direction: column;    
+        align-items: flex-start;
+        position: relative;
+    }
+    &__subdescr {
+        margin-top: 30px;
+    }
+    &__item {
+        position: absolute;
+    }
+    &__subdescr2 {
+        margin-top: 40px;
+    }
+}

@@ -1,0 +1,28 @@
+.advice {
+    &_sub {
+        margin-top: 15px;
+    }
+    min-height: 700px;
+    &__items {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        align-items: center;
+        margin-top: 45px;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        background: #FFFFFF;
+
+    }
+    &__item {
+        width: 238px;
+        min-height: 341px;
+    }
+    &__descr {
+        padding: 30px;
+        width: 232px;
+        min-height: 203px;
+    }
+}

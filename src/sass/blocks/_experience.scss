@@ -1,0 +1,27 @@
+.experience {
+    background-color: #FAFAFA;
+    z-index: 1;
+    min-height: calc(546px + 130px);
+    padding: 80px 0 0 0;
+    &__wrp {
+        margin-top: 110px;
+        padding: 80px 0px;
+
+    }
+    &__items {
+        display: flex;
+        margin-top: 50px;
+        flex-direction: row;
+        gap: 30px;
+    }
+    &__item {
+        width: 238px;
+        height: 209px;
+        background: #FFFFFF;
+        padding: 30px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        gap: 10px;
+    }
+}
